@@ -43,9 +43,9 @@ export default function Process() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {steps.map((item, i) => (
             <div key={item.step} className="relative group">
-              {i < steps.length - 1 && (
+              {/* {i < steps.length - 1 && (
                 <div className="hidden lg:block absolute top-10 left-[calc(50%+2rem)] w-[calc(100%-4rem)] h-px bg-gradient-to-r from-gold/40 to-transparent" />
-              )}
+              )} */}
               <div className="card-premium rounded-2xl p-6 h-full">
                 <span className="font-display text-4xl gold-text font-bold opacity-80">
                   {item.step}

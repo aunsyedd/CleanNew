@@ -56,14 +56,16 @@ export default function Navbar() {
               <div className="absolute inset-0 rounded-full ring-2 ring-gold/10" />
             </div>
 
-            <div className="hidden sm:block">
-              <p className="text-[11px] uppercase tracking-[0.3em] text-gold/70">
-                Premium Detailing
-              </p>
-              <h2 className="text-base font-semibold text-white">
-                CleanNew
-              </h2>
-            </div>
+<div className="hidden sm:block">
+  {/* <p className="text-[11px] uppercase tracking-[0.3em] text-gold/70">
+    Premium Detailing
+  </p> */}
+  
+  <h2 className="text-base font-semibold">
+    <span className="text-white ">Clean</span>
+    <span className="text-yellow-400">New</span>
+  </h2>
+</div>
           </a>
 
           {/* Desktop Nav */}
